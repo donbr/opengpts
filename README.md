@@ -4,7 +4,7 @@
 > - Essential tweaks to fully support Anthropic Claude 3.5 Sonnet and leverage its advanced function calling capabilities
 > - Added support for Groq models as an additional option
 > - Check the [.env.example.don](./.env.example.don) file for updated configuration guidance
-> - Note: Setting OPENAI_API_KEY is still required for embedding functionality in RAG implementations
+> - Note: setting the  OPENAI_API_KEY is still required for embedding functionality in RAG implementations
 
 > *An already brilliant repo that combines key LangChain tools for building powerful agentic solutions*
 
