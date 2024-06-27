@@ -1,10 +1,13 @@
 # OpenGPTs
 
 > Don's notes June 26, 2024:
-> - a few essential tweaks to support Anthropic Claude Sonnet 3.5 and some amazing function calling abilities
-> - an already fantastic repo that brings together the essential LangChain tools essential for effective agentic solutions
-> - I threw in support for Groq models as a bonus
-> - take a peek at the [.env.example.don](./.env.example.don) file for guidance on required configuration
+> - Essential tweaks to fully support Anthropic Claude 3.5 Sonnet and leverage its advanced function calling capabilities
+> - Added support for Groq models as an additional option
+> - Check the [.env.example.don](./.env.example.don) file for updated configuration guidance
+> - Note: Setting OPENAI_API_KEY is still required for embedding functionality in RAG implementations
+
+> *An already brilliant repo that combines key LangChain tools for building powerful agentic solutions*
+
 
 This is an open source effort to create a similar experience to OpenAI's GPTs and Assistants API.
 It is powered by [LangGraph](https://github.com/langchain-ai/langgraph) - a framework for creating agent runtimes.
