@@ -1,5 +1,11 @@
 # OpenGPTs
 
+> Don's notes June 26, 2024:
+> - a few essential tweaks to support Anthropic Claude Sonnet 3.5 and some amazing function calling abilities
+> - an already fantastic repo that brings together the essential LangChain tools essential for effective agentic solutions
+> - I threw in support for Groq models as a bonus
+> - take a peek at the [.env.example.don](./.env.example.don) file for guidance on required configuration
+
 This is an open source effort to create a similar experience to OpenAI's GPTs and Assistants API.
 It is powered by [LangGraph](https://github.com/langchain-ai/langgraph) - a framework for creating agent runtimes.
 It also builds upon [LangChain](https://github.com/langchain-ai/langchain), [LangServe](https://github.com/langchain-ai/langserve) and [LangSmith](https://smith.langchain.com/).
