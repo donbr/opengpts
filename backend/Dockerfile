@@ -17,12 +17,12 @@ RUN pip install poetry
 # Set the working directory
 WORKDIR /backend
 
-# Copy only dependencies
-COPY pyproject.toml poetry.lock* ./
+# Copy only dependencies and README.md required for installation
+COPY pyproject.toml poetry.lock* README.md ./
 
-# Install all dependencies
+# Install all dependencies but skip installing the root project
 RUN poetry config virtualenvs.create false \
-    && poetry install --no-interaction --no-ansi
+    && poetry install --no-interaction --no-ansi --no-root
 
 # Copy the rest of application code
 COPY . .
